@@ -21,15 +21,6 @@ const Body = () => {
     );
   }
 
-  if (!news) {
-    return (
-      <div className="py-[2%] px-[6%]">
-        <h1 className="font-semibold text-2xl w-9/12 m-auto mb-6">{topic}</h1>
-        <p>No news available</p>
-      </div>
-    );
-  }
-
   return (
     <div className="py-[2%] px-[6%]">
       <h1 className="font-semibold text-2xl w-9/12 m-auto mb-6">{topic}</h1>
