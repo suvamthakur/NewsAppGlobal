@@ -1,5 +1,5 @@
 import NewsBox from "./NewsBox";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import NewsContext from "../utils/NewsContext";
 import Shimmer from "./Shimmer";
 
